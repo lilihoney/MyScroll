@@ -17,6 +17,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors{
+        haha{
+            applicationId "qll.test.haha"
+
+            resValue "string","my_app_name","QIKA"
+            resValue "string","my_version_name","1.0"
+        }
+    }
 }
 
 dependencies {
@@ -26,4 +34,5 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.0'
     testCompile 'junit:junit:4.12'
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
 }

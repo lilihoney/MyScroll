@@ -1,3 +1,17 @@
 <resources>
+
+    <string name="btn_one">first one</string>
+    <string name="btn_two">second use @string/btn_one</string>
+    <string name="btn_three">@string/btn_one</string>
+    <string name="btn_four">forth use %1$btn_one</string>
+    <string name="use_another">use ... btn_one</string>
+    <string name="union_two">@string/app_name</string>
+
+
     <string name="app_name">MyScroll</string>
+    <string name="title">%1$s test</string>
+    <string name="title2">%1$s %2$s</string>
+    <string name="version_name">1.2</string>
+    <string name="title3">haha %1$s</string>
+    <string name="signature">QLL Create %1$s %2$s</string>
 </resources>
